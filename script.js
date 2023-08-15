@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let songItem = Array.from(document.getElementsByClassName('songItem'));
 
     let songs = [
-        { songName: "Tu bemisaal hai", filePath: "songs/1.mp3", coverPath: "covers/1.jpeg" },
-        { songName: "Teri ky misaal du", filePath: "songs/2.mp3", coverPath: "covers/2.jpeg" },
-        { songName: "Asmaan se aai hai", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-        { songName: "Yahi kehke taal du", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
+        { songName: "Tu bemisaal hai", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
+        { songName: "Teri ky misaal du", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
+        { songName: "Asmaan se aai hai", filePath: "songs/3.mp3", coverPath: "covers/3.jpeg" },
+        { songName: "Yahi kehke taal du", filePath: "songs/4.mp3", coverPath: "covers/4.png" },
         { songName: "Bitch", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" }
     ]
 
