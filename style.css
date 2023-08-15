@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+body {
+    background-color: rgb(5, 164, 63);
+    overflow: hidden;
+}
+
+/* '*' - targets all elements - universal selector*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 59px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 48px;
+    padding: 0 8px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.container {
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 95px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+    transition: value 0.2s ease;
+}
+
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 17px 0;
+    font-weight: bolder;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songItem img {
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 50%;
+
+
+}
+
+.timeStamp {
+    margin: 0 23px;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.songItemsContainer {
+    margin-top: 50px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+#gif {
+    width: 100%;
+    /* Take up full width of .bottom */
+    height: 75px;
+    /* Match the height of the .bottom div */
+    object-fit: fill;
+    /* Cover the entire area */
+    position: fixed;
+    /* Position absolutely */
+    bottom: 0%;
+    opacity: 0;
+    /* Initially hide the GIF */
+    transition: opacity 0.3s ease-in;
+    /* Smooth opacity transition */
+    z-index: -2;
+    /* Move even further behind */
+}
+
+#currentTime {
+    color: white;
+}
+
+#duration {
+    color: white;
+}
