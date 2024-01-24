@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let songs = [
         { songName: "Hey Babe!", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
         { songName: "How you Doin?", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-        { songName: "Take Care :)", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-        { songName: "Curses to VIT & OG ", filePath: "songs/4.mp3", coverPath: "covers/4.png" },
-        { songName: "I love you 😚", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" }
+        { songName: "Take Care :)", filePath: "songs/3.mp3", coverPath: "covers/3.jpeg" },
+        { songName: "Curses to VIT & OG ", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
+        { songName: "I love you 😚", filePath: "songs/5.mp3", coverPath: "covers/5.jpeg" }
     ]
 
     // async function getSongs() {
