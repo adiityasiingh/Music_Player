@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let songItem = Array.from(document.getElementsByClassName('songItem'));
 
     let songs = [
-        { songName: "Aagyi Sundari", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
-        { songName: "Kaisi Ho?", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-        { songName: "Jaisi Bhi Ho", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-        { songName: "Ab Meri Ho Jao", filePath: "songs/4.mp3", coverPath: "covers/4.png" },
-        { songName: "Cringe Nai Mera Pyaar Hai", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" }
+        { songName: "Hey Babe!", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
+        { songName: "How you Doin?", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
+        { songName: "Take Care :)", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
+        { songName: "Curses to VIT & OG ", filePath: "songs/4.mp3", coverPath: "covers/4.png" },
+        { songName: "I love you 😚", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" }
     ]
 
     // async function getSongs() {
